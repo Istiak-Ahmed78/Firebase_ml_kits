@@ -6,3 +6,4 @@ export 'package:food/views/styls/styles.dart';
 export 'components/app_bar.dart';
 export 'components/no_image_contenet.dart';
 export 'text_show/text_show.dart';
+export 'package:food/views/shared_function/pick_image.dart';

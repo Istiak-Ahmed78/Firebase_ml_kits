@@ -8,15 +8,7 @@ class TextScanner extends StatefulWidget {
 
 class _TextScannerState extends State<TextScanner> {
   File pickedImage;
-  final imagePicker = ImagePicker();
-  void pickImage(ImageSource pickUpSource) async {
-    final pickedFile = await imagePicker.getImage(source: pickUpSource);
-    setState(() {
-      pickedImage = File(pickedFile.path);
-    });
-  }
-
-  String scannedText = 'No text available';
+  String scannedText = 'No text found';
 
   Future<void> scaneText({File imageFile}) async {
     final FirebaseVisionImage visionImage =
@@ -90,8 +82,11 @@ class _TextScannerState extends State<TextScanner> {
               children: <Widget>[
                 FloatingActionButton(
                   heroTag: 'picFromCamera',
-                  onPressed: () {
-                    pickImage(ImageSource.camera);
+                  onPressed: () async {
+                    File picke = await pickImage(ImageSource.camera);
+                    setState(() {
+                      pickedImage = picke;
+                    });
                   },
                   child: Icon(
                     Icons.add_a_photo,
@@ -103,8 +98,11 @@ class _TextScannerState extends State<TextScanner> {
                 ),
                 FloatingActionButton(
                   heroTag: 'fromGallery',
-                  onPressed: () {
-                    pickImage(ImageSource.gallery);
+                  onPressed: () async {
+                    File picked = await pickImage(ImageSource.gallery);
+                    setState(() {
+                      pickedImage = picked;
+                    });
                   },
                   child: Icon(
                     Icons.photo,
