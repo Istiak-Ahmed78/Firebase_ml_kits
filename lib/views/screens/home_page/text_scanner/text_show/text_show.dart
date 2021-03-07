@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food/views/screens/home_page/qr_scanner/exports.dart';
 
 class ShowText extends StatelessWidget {
   final String text;
@@ -11,6 +12,7 @@ class ShowText extends StatelessWidget {
         title: Text('Scanned text'),
       ),
       body: Container(
+        padding: EdgeInsets.symmetric(horizontal: kDPadding),
         height: double.infinity,
         width: double.infinity,
         child: SelectableText(text),
