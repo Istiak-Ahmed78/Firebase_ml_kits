@@ -13,8 +13,8 @@ class HomeCardItemMode {
         imageUrl: 'images/t_scanner.png',
         navTo: TextScanner()),
     HomeCardItemMode(
-        title: 'Scan QR code',
-        imageUrl: 'images/qr_code.png',
+        title: 'Scan Barcode',
+        imageUrl: 'images/barcode.png',
         navTo: QRScanner()),
   ];
 }

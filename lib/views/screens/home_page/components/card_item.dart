@@ -32,8 +32,8 @@ class CardItem extends StatelessWidget {
               ),
               Image.asset(
                 imageUrl,
-                height: 40,
-                width: 40,
+                height: 45,
+                width: 45,
               )
             ],
           ),

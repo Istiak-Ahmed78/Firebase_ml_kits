@@ -53,6 +53,7 @@ flutter:
    - images/add_photo.png
    - images/qr_code.png
    - images/t_scanner.png
+   - images/barcode.png
 
   #  - images/a_dot_ham.jpeg
 
