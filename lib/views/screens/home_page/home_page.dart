@@ -13,8 +13,9 @@ class HomePage extends StatelessWidget {
         child: Padding(
           padding: EdgeInsets.symmetric(horizontal: kDPadding),
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
+              Container(),
               Container(
                 height: 200,
                 child: ListView.builder(
@@ -33,7 +34,19 @@ class HomePage extends StatelessWidget {
                   itemCount: HomeCardItemMode.cardList.length,
                   shrinkWrap: true,
                 ),
-              )
+              ),
+              Container(
+                  margin: EdgeInsets.only(bottom: 20),
+                  width: double.infinity,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: <Widget>[
+                      Text(
+                        'Coded and designed by Istiak Ahmed',
+                        style: TextStyle(color: Colors.white60),
+                      )
+                    ],
+                  ))
             ],
           ),
         ),
