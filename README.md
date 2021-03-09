@@ -6,9 +6,6 @@ A new Flutter application.This application can scan any english written document
 This section is able to read any type of barcode.After scanning the application shows its data in a separet screen.
 
 ## Some screenshots out here
-![Home Page](https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1D_niSR_l4_n2pcXe4TmFQKaVal9bq6oa%2Fview%3Fusp%3Ddrivesdk%26fbclid%3DIwAR3-d9bvIunC_zY9xiCuAktljPWlnubDv5WtXY1PQmV2Zs1F8P18gDIMpTQ&h=AT32FsbeLlyl9s6iZ9fNKp29Rrzuy2z8TFL3d0axcBlhLarb9E4t_r7AWkTDovMNbVe9B0q4WgQYoHZDGxo1N_6IDZ176TAZexPku3buNekqymy5E1txE-zq1TFkmd8y3jvCfw "Home page")
-*Home page screenshot*
-![Text Scan page](https://drive.google.com/file/d/1D__XWmwSuBFG_japBP-dU95U0uhNrzFa/view?usp=sharing "Text screen")
-*Text scan page screenshot*
-![Barcode scan result page](https://drive.google.com/file/d/1DS9R_-Sy_Je_2npY-TskclMl-1HY4nvV/view?usp=sharing "Barcode scsnner screen")
-*Barcode page result page*
+
+![Screenshot_2021-03-07-20-08-49-954_com example food](https://user-images.githubusercontent.com/68919043/110461835-2839fb80-80fa-11eb-9a50-745397acec89.jpg)
+![Screenshot_2021-03-07-20-09-44-382_com example food](https://user-images.githubusercontent.com/68919043/110461925-44d63380-80fa-11eb-9546-7c41eed31bef.jpg)
