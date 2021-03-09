@@ -41,10 +41,15 @@ class HomePage extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.end,
                     children: <Widget>[
-                      Text(
-                        'Coded and designed by Istiak Ahmed',
-                        style: TextStyle(color: Colors.white60),
-                      )
+                      Padding(
+                        padding: const EdgeInsets.only(right: 10),
+                        child: Text(
+                          'Coded and designed by Istiak Ahmed',
+                          style: TextStyle(color: Colors.white60),
+                        ),
+                      ),
+                      Text('Istiak Ahmed',
+                          style: TextStyle(color: Colors.white60))
                     ],
                   ))
             ],
