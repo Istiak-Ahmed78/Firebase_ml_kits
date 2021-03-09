@@ -44,7 +44,7 @@ class HomePage extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.only(right: 10),
                         child: Text(
-                          'Coded and designed by Istiak Ahmed',
+                          'Coded and designed by',
                           style: TextStyle(color: Colors.white60),
                         ),
                       ),
