@@ -10,4 +10,4 @@ This section is able to read any type of barcode.After scanning the application 
 ![Screenshot_2021-03-07-20-08-49-954_com example food](https://user-images.githubusercontent.com/68919043/110461835-2839fb80-80fa-11eb-9a50-745397acec89.jpg)
 ![Screenshot_2021-03-07-20-09-44-382_com example food](https://user-images.githubusercontent.com/68919043/110461925-44d63380-80fa-11eb-9546-7c41eed31bef.jpg)
 
-You will be able to add photo from your gellary and also from your camera after the photo taken
+### You will be able to add photo from your gellary and also from your camera after the photo taken
